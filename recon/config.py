@@ -92,7 +92,7 @@ WITNESSING = Route(
             "warehouse": ("RECEIVING TRUCK REG",),
         }),
         Field("MINE SEAL", TEXT, {
-            "wire": ("RECEIVED KICO SEAL",),
+            "wire": ("RECEIVED MINE SEAL", "RECEIVED KICO SEAL"),
             "warehouse": ("MINE SEAL",),
         }),
         Field("ZAMBIA WAREHOUSE GROSS WEIGHT (KG)", WEIGHT, {
